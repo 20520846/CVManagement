@@ -163,7 +163,6 @@ F:\SourceCode\ASPNET\CVManagement\CV-backend\CV-backend\obj\Debug\net8.0\staticw
 F:\SourceCode\ASPNET\CVManagement\CV-backend\CV-backend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CV-backend.props
 F:\SourceCode\ASPNET\CVManagement\CV-backend\CV-backend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CV-backend.props
 F:\SourceCode\ASPNET\CVManagement\CV-backend\CV-backend\obj\Debug\net8.0\staticwebassets.pack.json
-F:\SourceCode\ASPNET\CVManagement\CV-backend\CV-backend\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 F:\SourceCode\ASPNET\CVManagement\CV-backend\CV-backend\obj\Debug\net8.0\CV-backend.csproj.Up2Date
 F:\SourceCode\ASPNET\CVManagement\CV-backend\CV-backend\obj\Debug\net8.0\CV-backend.dll
 F:\SourceCode\ASPNET\CVManagement\CV-backend\CV-backend\obj\Debug\net8.0\refint\CV-backend.dll
@@ -171,3 +170,5 @@ F:\SourceCode\ASPNET\CVManagement\CV-backend\CV-backend\obj\Debug\net8.0\CV-back
 F:\SourceCode\ASPNET\CVManagement\CV-backend\CV-backend\obj\Debug\net8.0\CV-backend.genruntimeconfig.cache
 F:\SourceCode\ASPNET\CVManagement\CV-backend\CV-backend\obj\Debug\net8.0\ref\CV-backend.dll
 F:\SourceCode\ASPNET\CVManagement\CV-backend\CV-backend\bin\Debug\net8.0\AutoMapper.dll
+F:\SourceCode\ASPNET\CVManagement\CV-backend\CV-backend\obj\Debug\net8.0\CV-backend.sourcelink.json
+F:\SourceCode\ASPNET\CVManagement\CV-backend\CV-backend\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
