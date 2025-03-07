@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CV-backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efb03bf71af089880557153146783d0aef25cbf7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d37e32e55927725f017fab7fb06cf1eeb0b7d86")]
 [assembly: System.Reflection.AssemblyProductAttribute("CV-backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CV-backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

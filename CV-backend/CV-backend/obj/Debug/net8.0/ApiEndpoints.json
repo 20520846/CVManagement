@@ -47,6 +47,22 @@
   },
   {
     "ContainingType": "CV_backend.Controllers.CandidateController",
+    "Method": "DownloadPdfFile",
+    "RelativePath": "api/Candidate/download/{url}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "url",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CV_backend.Controllers.CandidateController",
     "Method": "GetCandidates",
     "RelativePath": "api/Candidate/get",
     "HttpMethod": "GET",
