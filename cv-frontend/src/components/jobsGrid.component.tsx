@@ -1,13 +1,14 @@
 import { Box } from "@mui/material";
 import { DataGrid, GridColDef } from "@mui/x-data-grid";
 import moment from "moment";
-import "./companiesGrid.scss";
-import { ICompany } from "../types/global.typing";
+import "./jobsGrid.scss";
+import { IJob } from "../types/global.typing";
 
 const column: GridColDef[] = [
   { field: "id", headerName: "ID", width: 100 },
-  { field: "name", headerName: "Name", width: 200 },
-  { field: "size", headerName: "Size", width: 150 },
+  { field: "title", headerName: "Title", width: 200 },
+  { field: "level", headerName: "Level", width: 200 },
+  { field: "companyName", headerName: "Company Name", width: 150 },
   {
     field: "createdAt",
     headerName: "Creation Time",
@@ -16,15 +17,15 @@ const column: GridColDef[] = [
   },
 ];
 
-interface ICompaniesGridProps {
-  data: ICompany[];
+interface IJobsGridProps {
+  data: IJob[];
 }
 
-const CompaniesGrid = ({ data }: ICompaniesGridProps) => {
+const JobsGrid = ({ data }: IJobsGridProps) => {
   return (
     <Box
       sx={{ width: "100%", height: 450 }}
-      className="companies-grid"
+      className="jobs-grid"
     >
       <DataGrid
         rows={data}
@@ -36,4 +37,4 @@ const CompaniesGrid = ({ data }: ICompaniesGridProps) => {
   );
 };
 
-export default CompaniesGrid;
+export default JobsGrid;

@@ -9,3 +9,18 @@ export interface ICreateCompanyDTO {
     name: string;
     size: string;
 }
+
+export interface IJob{
+    id: string;
+    title: string;
+    level: string;
+    companyId: string;
+    companyName: string;
+    createdAt: string;
+}
+
+export interface ICreateJobDTO {
+    title: string;
+    level: string;
+    companyId: string;
+}

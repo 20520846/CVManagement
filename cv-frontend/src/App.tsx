@@ -8,6 +8,7 @@ const Home = lazy(() => import("./pages/home.page"));
 const Companies = lazy(() => import("./pages/companies.page"));
 const AddCompany = lazy(() => import("./pages/add-company.page"));
 const Jobs = lazy(() => import("./pages/jobs.page"));
+const AddJob = lazy(() => import("./pages/add-job.page"));
 const Candidates = lazy(() => import("./pages/candidates.page"));
 
 const App = () => {
@@ -35,10 +36,16 @@ const App = () => {
                 element={<AddCompany />}
               ></Route>
             </Route>
-            <Route
-              path="/jobs"
-              element={<Jobs />}
-            />
+            <Route path="/jobs">
+              <Route
+                index
+                element={<Jobs />}
+              ></Route>
+              <Route
+                path="add"
+                element={<AddJob />}
+              ></Route>
+            </Route>
             <Route
               path="/candidates"
               element={<Candidates />}
