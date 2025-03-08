@@ -5,6 +5,7 @@ import httpModule from "../helpers/http.module";
 import { Button, CircularProgress } from "@mui/material";
 import { Add } from "@mui/icons-material";
 import JobsGrid from "../components/jobsGrid.component";
+import "./jobs.scss";
 
 const Jobs = () => {
   const [jobs, setJobs] = useState<IJob[]>([]);

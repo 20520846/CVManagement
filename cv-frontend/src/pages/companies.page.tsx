@@ -5,6 +5,7 @@ import { Button, CircularProgress } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import { Add } from "@mui/icons-material";
 import CompaniesGrid from "../components/companiesGrid.component";
+import "./companies.scss";
 
 const Companies = () => {
   const [companies, setCompanies] = useState<ICompany[]>([]);

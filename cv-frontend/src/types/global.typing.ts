@@ -24,3 +24,25 @@ export interface ICreateJobDTO {
     level: string;
     companyId: string;
 }
+
+export interface ICandidate{
+    id: string;
+    firstName: string;
+    lastName: string;
+    email: string;
+    phone: string;
+    coverLetter: string;
+    resumeURL: string;
+    jobId: string;
+    jobTitle: string;
+    createdAt: string;
+}
+
+export interface ICreateCandidateDTO {
+    firstName: string;
+    lastName: string;
+    email: string;
+    phone: string;
+    coverLetter: string;
+    jobId: string;
+}
