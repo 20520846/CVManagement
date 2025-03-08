@@ -39,7 +39,7 @@ namespace CV_backend.Controllers
         [Route("get")]
         public async Task<ActionResult<IEnumerable<CompanyGetDTO>>> GetCompanies()
         {
-            var companies = await _context.Companies.ToListAsync();
+            var companies = await _context.Companies.OrderByDescending(q => q.CreatedAt).ToListAsync();
             var covertedCompanies = _mapper.Map<IEnumerable<CompanyGetDTO>>(companies);
 
             return Ok(covertedCompanies);
